@@ -6,7 +6,7 @@
 
 var HelloWorld = function() {};
 
-HelloWorld.prototype.hello = function(input) {
+HelloWorld.prototype.hello = function(name) {
   name = name || "World";
   return "Hello, "+ name + "!";
 };
